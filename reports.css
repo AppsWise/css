@@ -1,0 +1,159 @@
+body, html {
+  background: white;
+  line-height: normal;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 2%;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.logo_card {
+  margin-top: 45%;
+  border: none;
+  width: 72%;
+  display: table;
+  text-align: center;
+}
+
+.logo_card>.card-img-top {
+  align-self: center;
+  height: 150px;
+}
+
+.micro_container {
+  margin-top: 2%;
+  padding: 2%;
+  width: 72%;
+}
+
+.micro_container.card-img-top {
+  align-self: center;
+  margin-top: 5px;
+}
+
+.cecl_result_container {
+  margin-top: 2%;
+  padding: 2%;
+  width: 72%;
+}
+
+.micro_cards>.text-small {
+  font-size: x-small;
+  width: 100%;
+  height: 40px;
+}
+
+.micro_cards>.card_head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.cecl_result {
+  line-height: 5px;
+}
+
+.cecl_baseline {
+  width: 100px;
+}
+.sub_head{
+  font-size: large;
+}
+.sub_sub_head{
+  font-size: medium;
+}
+.sub_head, .sub_sub_head {
+  padding-left: 10px;
+  line-height: 5px;
+}
+
+.sub_sub_head {
+  padding-left: 20px;
+  line-height: 5px;
+}
+
+.result_points {
+  line-height: 5px;
+  padding-left: 30px;
+  font-size: small;
+}
+
+.summary_cards {
+  margin-left: 30px;
+  border: none;
+  width: 90%;
+}
+.summary_cards>img{
+  margin-left: 70px;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  align-self: center;
+}
+.by_delinquncy>table>tbody>tr>td {
+  border-top: none;
+}
+
+.by_vantage>table>tbody>tr>td {
+  border-top: none;
+}
+
+.by_vintage>table>tbody>tr>td {
+  border-top: none;
+}
+
+.cecl_summary_container {
+  margin-top: 1%;
+  margin-bottom: 10%;
+  padding: 2%;
+  width: 72%;
+}
+
+.segmented_result_container {
+  margin-top: 1%;
+  padding: 2%;
+  width: 72%;
+}
+
+.segment_cards {
+  padding: 10px;
+  margin: 2px;
+  width: 100%;
+}
+
+.segment_cards.card-img-top {
+  align-self: center;
+  margin-top: 5px;
+}
+
+.segment_summary>.sub_head {
+  margin-bottom: 40px;
+  margin-left: -10px;
+}
+
+.card_wrap>.col-6 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card_wrap {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
